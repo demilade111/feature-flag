@@ -1,5 +1,11 @@
 # CTO Review: Architectural Decisions and Learning Summary
 
+## Time Spent
+
+**Total Time:** Just over 7 hours of focused work on the project
+
+**Learning Process:** Before starting the project, I spent Sunday and Monday going through Java and Spring Boot fundamentals. I couldn't start immediately since I was new to both Java and Spring, so I first familiarized myself with the syntax and how the framework works in general. I worked through a comprehensive Spring Boot tutorial to build foundational understanding, then applied what I learned to this assignment.
+
 This project was my first practical experience with Java and Spring Boot, so I focused on building something simple, clear, and easy to follow. Along the way, I made design choices that fit the assignment but also helped me understand how Spring applications behave as they start up and how different components interact.
 
 ## 1. Backend Design Choices
@@ -18,11 +24,13 @@ In a real production system, I would replace Basic Auth with JWT-based authentic
 
 ## 3. What I Learned About Spring Boot and Java
 
-The biggest learning moment for me came from understanding how Spring manages the lifecycle of objects. Coming from JavaScript, where I manually create most things, it was new to see Spring creating classes, storing them, and injecting them wherever needed. Learning dependency injection and the idea of the application context helped everything else fall into place.
+### The Hardest Concept: Java's OOP Structure and Type System
 
-I also learned how Spring Boot handles its startup sequence. This is how the feature flags are loaded into memory before the application begins serving traffic.
+Coming from JavaScript ecosystem , the biggest challenge was adapting to Java's strict type system and class-based OOP structure. Every variable, method return, and parameter needs an explicit type declaration. Understanding when to create classes, how to use access modifiers (public, private), and concepts like inheritance became critical rather than optional.
 
-Adjusting to Java's strict typing and class-based structure was another part of the learning curve. But i became less stressful when i got used to it
+**How I overcame it:**
+
+I spent Sunday and Monday going through Java fundamentals and a Spring Boot tutorial before starting the project. I worked through examples to understand class structure, access modifiers, and how Spring's dependency injection fits into Java's OOP model. The key was building understanding incrementally rather than trying to implement everything at once
 
 ## 4. Real Production System
 
